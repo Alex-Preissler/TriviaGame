@@ -1,0 +1,349 @@
+body {
+
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1080px;
+    padding-bottom: 100px;
+}
+
+
+header {
+
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+#banner {
+
+    width: 930px;
+    height: 200px;
+
+}
+
+
+#game-board {
+
+    background-image: url(../images/game-board.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 930px;
+    height: 875px;
+    padding-top: 250px;
+    margin: 0 auto;
+
+
+}
+
+
+
+#timeLeft {
+
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    bottom: 140px;
+    z-index: 1;
+    left: 15px;
+    color: darkblue;
+
+}
+
+#scrollBackground {
+
+    background-image: url(../images/scroll.png);
+    background-size: cover;
+    height: 325px;
+    width: 850px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 265px;
+    right: 5px;
+
+
+}
+
+#currentQuestion {
+
+    text-align: center;
+    color: black;
+    position: relative;
+    left: 155px;
+    font-size: 24px;
+    bottom: 450px;
+    max-width: 650px;
+
+
+
+}
+
+#correct-wrong {
+
+    text-align: center;
+    color: black;
+    position: relative;
+    left: 25px;
+    bottom: 425px;
+    font-weight: bolder;
+
+
+}
+
+
+#correctAnswer {
+
+    text-align: center;
+    color: black;
+    position: relative;
+    left: 15px;
+    bottom: 450px;
+
+
+}
+
+li {
+
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+
+}
+
+.btn {
+
+    text-align: center;
+    margin: 10px auto;
+    position: relative;
+    left: 30px;
+    bottom: 25px;
+
+    
+
+
+}
+
+iframe {
+
+    position: relative;
+    left: 290px;
+    bottom: 250px;
+    width: 400px;
+    height: 300px;
+
+}
+
+#finalScore {
+
+    position: relative;
+    bottom: 475px;
+    left: 30px;
+    font-size: 20px;
+
+
+}
+
+
+
+@media screen and (max-width: 992px) {
+
+  #banner {
+
+        width: 690px;
+        height: 150px;
+        
+        
+        
+
+    }
+
+    #game-board {
+
+        width: 690px;
+        height: 610px;
+
+
+    }
+
+    li {
+
+
+        bottom: 300px;
+        right: 0px;
+
+
+    }
+
+    .btn {
+
+        left: 0;
+
+
+    }
+
+    #scrollBackground {
+
+        width: 650px;
+        height: 250px;
+
+    }
+
+    #currentQuestion {
+
+        bottom: 415px;
+        left: 125px;
+        max-width: 450px;
+        font-size: 18px;
+        padding-bottom: 15px;
+
+    }
+
+    #timeLeft {
+
+        bottom: 175px;
+        font-size: 24px;
+        left: 10px;
+
+    }
+
+    li {
+
+        bottom: 325px;
+
+
+    }
+
+    iframe {
+
+        left: 150px;
+        bottom: 375px;
+        height: 300px;
+
+
+    }
+
+    #correct-wrong {
+
+        left: 0;
+
+    }
+
+    #correctAnswer {
+
+        left: 0;
+        font-size: 16px;
+        margin-bottom: 0;
+
+    }
+
+    #finalScore {
+
+        position: relative;
+        bottom: 460px;
+        left: 0px;
+        font-size: 18px;
+    
+    
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+
+
+    #banner {
+
+        width: 510px;
+        height: 100px;
+  
+        
+
+    }
+
+    #game-board {
+
+
+        width: 510px;
+        height: 450px;
+
+
+    }
+
+    .btn {
+
+        left: 0;
+
+    }
+    
+    li {
+
+        bottom: 330px;
+
+
+    }
+
+    #scrollBackground {
+
+        width: 475px;
+        height: 200px;
+        bottom: 285px;
+
+    }
+
+    #currentQuestion {
+
+        bottom: 415px;
+        left: 100px;
+        max-width: 325px;
+        font-size: 12px;
+        padding-bottom: 15px;
+
+    }
+
+    #timeLeft {
+
+        bottom: 215px;
+        font-size: 18px;
+        left: 8px;
+
+    }
+
+    iframe {
+
+        left: 60px;
+        bottom: 375px;
+        height: 150px;
+
+
+    }
+
+    #correct-wrong {
+
+        left: 0;
+        font-size: 18px;
+        margin-bottom: 10px;
+
+    }
+
+    #correctAnswer {
+
+        left: 0;
+        font-size: 12px;
+        padding-bottom: 0%;
+        margin-bottom: 0;
+
+    }
+
+    #finalScore {
+
+        position: relative;
+        bottom: 465px;
+        left: 0px;
+        font-size: 16px;
+    
+    
+    }
+}
