@@ -1,6 +1,6 @@
 # Harry Potter Trivia Game #
 
-A simple Harry Potter themed trivia game.
+A Harry Potter themed trivia game.
 
 ![Harry Potter Trivia Game](./assets/images/Potter-Trivia.png)
 
