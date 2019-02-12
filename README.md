@@ -2,9 +2,20 @@
 
 A simple Harry Potter themed trivia game.
 
+![Harry Potter Trivia Game](./assets/images/Potter-Trivia.png)
+
+
 ## Contributors ##
 
 Alex Preissler
+
+## Instructions ##
+
+1. Clone repo.
+2. Open "TrivaGame" folder.
+3. Launch Index.html in browser.
+4. Click to begin and start answering questions.
+5. At the end score will be displayed with option to play again.
 
 ## Contact ##
 
